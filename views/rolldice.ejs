@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Dice</title>
+</head>
+<body>
+    <h1>Roll dice game : 
+
+        <!-- <%= Math.floor(Math.random() * 6) + 1 %> -->
+        <%= num %>  <!-- This num is from index.js file-->
+    </h1>
+
+    <% if(num == 6) { %>    <!-- Here it is a js line. -->
+        <h2>Nice! Roll Dice again.</h2> <!-- Here it is a html line-->
+    <% } %> <!-- Here it is a js line-->
+
+</body>
+</html>
